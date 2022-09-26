@@ -1,0 +1,232 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 160px;
+    gap: 30px;
+    width: 1575px;
+    height: 263px;
+    background: #F5F5FA;
+    margin-top: 60px;
+
+
+    .footer-achievements {
+
+        button {
+            border-radius: 100%;
+            width: 16px;
+            height: 16px;
+            background: #24A3FF;
+            opacity: 0.2;
+            border: none;
+            margin-left: 14px;
+
+            &:hover {
+                width: 16px;
+                height: 16px;
+                background: #24A3FF;
+                opacity: 0.6;
+            }
+        }
+
+        .ellipse-block-first {
+            margin-left: 907px;
+            margin-top: 30px;
+        }
+
+        h3 {
+            width: 129px;
+            height: 17px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #323264;
+            margin-left: 887px;
+        }
+
+        .footer-achievements-blocks {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+
+            .footer-achievements__block-first,
+            .footer-achievements__block-second,
+            .footer-achievements__block-third,
+            .footer-achievements__block-fourth {
+                width: 370px;
+                height: 110px;
+                background: #FFFFFF;
+                border-radius: 12px;
+                margin-right: 40px;
+                margin-left: 40px;
+
+                .achievements {
+                    margin-top: 25px;
+                    margin-left: 110px;
+                }
+            }
+        }
+
+        .footer-publications {
+            width: 100%;
+            height: 830px;
+            background: #F5F5FA;
+            margin-right: 2px;
+            margin-top: -100px;
+            border-radius: 12px 12px 0px 0px;
+    
+            h5 {
+                width: 122px;
+                height: 17px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #24A3FF;
+                padding-top: 30px;
+                margin-left: 60px;
+            }
+    
+            .title {
+                width: 525px;
+                height: 46px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 38px;
+                line-height: 46px;
+                background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                padding-top: 10px;
+                margin-left: 60px;
+            }
+        }
+
+        hr {
+            width: 1600px;
+            height: 2px;
+            background: #E6E6F0;
+            margin-top: 50px;
+            border: none;
+        }
+
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+            height: 200px;
+            background: #F5F5FA;
+            width: 1895px;
+    
+            .footer-contacts {
+                display: flex;
+                justify-content: space-between;
+                width: 1600px;
+                height: 79px;
+                
+                .footer-contacts__block-left {
+                    margin-top: 30px;
+                    margin-left: 145px;
+        
+                    div {
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #323264;
+                        line-height: 20px;
+            
+                        button {
+                            height: 12px;
+                            background: #B3B3BA;
+                            border-radius: 100%;
+                            border: none;
+                            margin-left: 10px;
+                            margin-right: 6px;
+                        }
+            
+                        .button {
+                            text-decoration: none;
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 15px;
+                            letter-spacing: 1px;
+                            text-transform: uppercase;
+                            color: #24A3FF;
+                        }
+                        
+                    }
+        
+                    div {
+                        margin-top: 21px;
+        
+                        button {
+                            height: 12px;
+                            background: #B3B3BA;
+                            border-radius: 100%;
+                            border: none;
+                            margin-left: 10px;
+                            margin-right: 6px;
+                        }
+    
+                        span {
+        
+                            .tel {
+                                margin-left: 10px;
+                                width: 104px;
+                                height: 20px;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 20px;
+                                color: #46466E;
+                                text-decoration: none;
+                            }
+    
+                            button {
+                                height: 12px;
+                                border-radius: 100%;
+                                border: none;
+                                margin-left: 10px;
+                                margin-right: 6px;
+                                background: #B3B3BA;
+                            }
+        
+                            .email {
+                                margin-left: 10px;
+                                width: 204px;
+                                height: 20px;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 20px;
+                                color: #24A3FF;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+        
+                .footer-contacts__block-right {
+                    margin-top: 30px;
+                    margin-right: -130px;
+    
+                    span {
+                        width: 276px;
+                        height: 20px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: right;
+                        color: #B3B3BA;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+body {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+  height: 1440px;
+  width: 1890px;
+  border-radius: 0px 0px 12px 12px;
+}
+
+header {
+  background-image: url(../img/symbol.png);
+  width: 697px;
+  height: 799px;
+  margin-top: -80px;
+  position: absolute;
+  left: calc(50% - 348.5px + 0.5px);
+  top: calc(50% - 399.5px + 0.5px);
+}
+header .circle {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: calc(50% - 21px);
+  bottom: 0px;
+  opacity: 0.5;
+  border: 2px solid #FFFFFF;
+  border-radius: 100%;
+}
+header .circle .arrow {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-top: 3px solid #FFFFFF;
+  -webkit-transform: rotate(224deg);
+          transform: rotate(224deg);
+  left: calc(50% - 8.5px);
+  bottom: 15px;
+  border-left: 3px solid #FFFFFF;
+}
+header .circle:hover {
+  border: 2px solid #F0145A;
+}
+header .header .header_logo .header_left__block {
+  width: 130px;
+  height: 60px;
+}
+header .header .container {
+  width: 1700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: -500px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 1200px) {
+  header .header .container .container {
+    width: 1400px;
+    margin-left: -370px;
+    margin-top: 50px;
+  }
+}
+header .header .container .header_right__block {
+  width: 550px;
+}
+header .header .container .header_right__block div a {
+  margin-right: 11px;
+  text-decoration: none;
+  color: #fff;
+}
+header .header .container .header_right__block div .header_languages {
+  font-weight: 700;
+  font-size: 12px;
+}
+header .header .container .header_right__block div button {
+  height: 12px;
+  background: #E6E6F0;
+  border-radius: 100%;
+  border: none;
+  margin-left: -3px;
+  margin-right: 6px;
+}
+header .header .container .header_right__block div .header_tel {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+header .header .container .header_right__block div .menu-open {
+  border: none;
+  margin-left: 20px;
+  display: none;
+  background: none;
+}
+header .header .container .header_right__block nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header .header .container .header_right__block nav ul li {
+  margin-left: 15px;
+}
+header .header .container .header_right__block nav ul li a {
+  height: 20px;
+  width: 44px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+header .header .container .header_right__block nav ul li a:hover {
+  color: #F0145A;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=home-header.css.map */

@@ -1,0 +1,130 @@
+main {
+  margin-top: 860px;
+}
+main .main-container {
+  margin-left: 400px;
+  width: 1080px;
+  height: 1800px;
+}
+main .main-container .main-container__content {
+  width: 1080px;
+  height: 202px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+main .main-container .main-container__content p {
+  width: 1080px;
+  height: 202px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+main .main-container h2 {
+  width: 1080px;
+  height: 184px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+main .main-container span {
+  width: 1080px;
+  height: 54px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #46466E;
+}
+main .main-container ol li span {
+  width: 1040px;
+  height: 26px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+main .main-container div {
+  width: 1080px;
+  height: 78px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 30px;
+}
+main .main-container .img-google {
+  margin-left: 200px;
+  margin-top: 30px;
+}
+main .main-container h3 {
+  width: 640px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #B3B3BA;
+  margin-left: 200px;
+}
+main .main-container .content-about {
+  width: 1080px;
+  height: 104px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+main .main-container h4 {
+  width: 1080px;
+  height: 27px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #323264;
+}
+main .main-container hr {
+  width: 1080px;
+  height: 4px;
+  background: #E6E6F0;
+  border: none;
+  margin-top: 100px;
+}
+main .main-container span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .main-container span .icon {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 9px;
+  gap: 10px;
+  width: 42px;
+  height: 42px;
+  background: #F5F5FA;
+  border-radius: 12px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+main .main-container span .icon:hover {
+  width: 42px;
+  height: 42px;
+  background: #F5F5FA;
+}
+/*# sourceMappingURL=publications-main.css.map */

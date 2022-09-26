@@ -1,0 +1,121 @@
+main .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 30px;
+  width: 1440px;
+  height: 322px;
+  margin-top: 176px;
+  margin-left: 280px;
+}
+main .main-content div h1 {
+  width: 942px;
+  height: 92px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+main .main-content div .description {
+  width: 942px;
+  height: 200px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  margin-top: -50px;
+}
+main .main-content hr {
+  width: 4px;
+  height: 322px;
+  background: #E6E6F0;
+  rotate: 90deg;
+  border: none;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+main .main-content .main-content__right .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 354px;
+  height: 74px;
+  margin-right: 50px;
+  margin-top: 42px;
+}
+main .main-content .main-content__right .img span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-left: 12px;
+}
+main .main-content .main-content__right .img p {
+  width: 354px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323264;
+}
+main .banner {
+  margin-top: 108px;
+}
+main .banner .bannerteam {
+  width: 1895px;
+  height: 584px;
+}
+main .banner .banner-content {
+  width: 938px;
+  height: 250px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  margin-left: 280px;
+  margin-top: 60px;
+}
+main .banner .banner__block-right {
+  float: right;
+}
+main .banner .banner__block-right h2 {
+  width: 362px;
+  height: 138px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: -249px;
+  margin-right: 280px;
+}
+/*# sourceMappingURL=about-main.css.map */

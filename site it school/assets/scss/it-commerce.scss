@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    font-family: 'Montserrat' , sans-serif;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1140px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+header {
+    width: 697px;
+    height: 500px;
+    margin-top: -80px;
+    position: absolute;
+    left: calc(50% - 697px/2 + 0.5px);
+    top: calc(50% - 799px/2 + 0.5px);
+
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        width: 1700px;
+        margin-left: -500px;
+        margin-top: 50px;
+
+        .header_logo {
+
+            .header_left__block {
+                height: 60px;
+                width: 400px;
+
+
+                span {
+                    position: absolute;
+                    .slash {
+                        position: absolute;
+                        height: 47px;
+                        width: 21px;
+                        margin-left: 4px;
+                    }
+    
+                    span {
+                        width: 143px;
+                        height: 44px;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 36px;
+                        line-height: 44px;
+                        color: #FFFFFF;
+                        margin-left: 29px;
+                    }
+                }
+            }
+            
+        }
+
+    }
+
+    .header_right__block {
+        width: 550px;
+
+            div {
+
+                a {
+                text-decoration: none;
+                color: #fff;
+                margin-right: 11px;
+            }
+    
+            .header_languages {
+                font-weight: 700;
+                font-size: 12px;
+            }
+    
+            button {
+                height: 12px;
+                background: #E6E6F0;
+                border-radius: 100%;
+                border: none;
+                margin-left: -3px;
+                margin-right: 6px;
+            }
+    
+            .header_tel {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19.5px;
+            }
+        }
+    
+        nav {
+            
+            ul {
+                display: flex;
+                list-style-type: none;
+
+                li {
+                    margin-left: 15px;
+
+                    a {
+                        text-decoration: none;
+                        width: 44px;
+                        height: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: right;
+                        color: #FFFFFF; 
+
+                        &:hover {
+                            color: #F0145A;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

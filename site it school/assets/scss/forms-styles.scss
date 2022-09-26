@@ -1,0 +1,204 @@
+body {
+    background-color: #323264;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 30px;
+    position: absolute;
+    width: 650px;
+    height: 612px;
+    left: 600px;
+    top: 243px;
+    background: #F5F5FA;
+    box-shadow: 0px 15px 80px rgba(40, 40, 86, 0.5);
+    border-radius: 12px;
+
+    .forms-title {
+
+        h1 {
+            width: 517px;
+            height: 46px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 46px;
+            background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .closeModal {
+            cursor: pointer; 
+            position: absolute; 
+            top: 50px;
+            margin-left: 595px;
+
+            /* &:hover {
+                position: absolute;
+                width: 32px;
+                height: 32px;
+                background: #E6E6F0;
+                border-radius: 8px;
+                top: 15px;
+            } */
+
+            &:before,
+            &:after {
+                content: ""; 
+                position: absolute; 
+                width: 32px;
+                height: 4px;
+                background: #EC6F5D;
+            }
+
+            &:before {
+                transform: rotate(45deg);
+            }
+
+            &:after {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+
+    h2 {
+        width: 200px;
+        height: 17px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #B3B3BA;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+
+    .name {
+
+        .name-input {
+            display: flex;
+            box-sizing: border-box;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 15px;
+            gap: 10px;
+            width: 590px;
+            height: 56px;
+            background: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            border-radius: 8px;
+            flex: none;
+        }
+
+        ::placeholder {
+            width: 50px;
+            height: 26px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #B3B3BA;
+            flex: none;
+        }
+    }
+
+    .text {
+
+        .message {
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+            align-items: flex-start;
+            padding: 15px;
+            gap: 10px;
+            width: 590px;
+            height: 130px;
+            background: #FFFFFF;
+            border: none;
+            border-radius: 8px;
+            flex: none;
+        }
+
+        ::placeholder {
+            width: 71px;
+            height: 26px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #B3B3BA;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+    }
+
+    .tel {
+
+        .tel-input {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 15px;
+            gap: 10px;
+            width: 590px;
+            height: 56px;
+            background: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            border-radius: 8px;
+            flex: none;
+            box-sizing: border-box;
+            margin-top: -20px;
+        }
+
+        ::placeholder {
+            width: 123px;
+            height: 26px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #B3B3BA;
+            flex: none;
+        }
+    }
+
+    .email {
+
+        .email-input {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 15px;
+            gap: 10px;
+            width: 590px;
+            height: 56px;
+            background: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            border-radius: 8px;
+            flex: none;
+            order: 2;
+            box-sizing: border-box;
+        }
+
+        ::placeholder {
+            width: 46px;
+            height: 26px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #B3B3BA;
+            flex: none;
+        }
+    }
+}

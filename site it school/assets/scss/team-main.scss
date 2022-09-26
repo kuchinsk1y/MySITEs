@@ -1,0 +1,102 @@
+main {
+
+    h1 {
+        width: 1360px;
+        height: 92px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-top: 176px;
+        margin-left: 280px;
+    }
+
+
+    .main-first-row {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 160px;
+        margin-right: 160px;
+
+        .main-first-row__third-block,
+        .main-first-row__second-block,
+        .main-first-row__first-block {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 15px;
+            width: 493.33px;
+            height: 462px;
+            
+            .title {
+                
+                a {
+                    width: 353px;
+                    height: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #323264;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #F0145A;
+                    }
+                }
+            }
+
+            p {
+                width: 446.33px;
+                height: 22px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                color: #B3B3BA;
+            }
+        }
+    }
+
+    .main-second-row {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 160px;
+        margin-right: 160px;
+        margin-top: 60px;
+
+        .title {
+                
+            a {
+                width: 353px;
+                height: 20px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                color: #323264;
+                text-decoration: none;
+
+                &:hover {
+                    color: #F0145A;
+                }
+            }
+        }
+
+        p {
+            width: 446.33px;
+            height: 22px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #B3B3BA;
+        }
+    }
+}

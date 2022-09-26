@@ -1,0 +1,107 @@
+main h1 {
+  width: 1360px;
+  height: 92px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 176px;
+  margin-left: 280px;
+}
+main .main-first-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+main .main-first-row .main-first-row__third-block,
+main .main-first-row .main-first-row__second-block,
+main .main-first-row .main-first-row__first-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+  width: 493.33px;
+  height: 462px;
+}
+main .main-first-row .main-first-row__third-block .title a,
+main .main-first-row .main-first-row__second-block .title a,
+main .main-first-row .main-first-row__first-block .title a {
+  width: 353px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323264;
+  text-decoration: none;
+}
+main .main-first-row .main-first-row__third-block .title a:hover,
+main .main-first-row .main-first-row__second-block .title a:hover,
+main .main-first-row .main-first-row__first-block .title a:hover {
+  color: #F0145A;
+}
+main .main-first-row .main-first-row__third-block p,
+main .main-first-row .main-first-row__second-block p,
+main .main-first-row .main-first-row__first-block p {
+  width: 446.33px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+main .main-second-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 60px;
+}
+main .main-second-row .title a {
+  width: 353px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323264;
+  text-decoration: none;
+}
+main .main-second-row .title a:hover {
+  color: #F0145A;
+}
+main .main-second-row p {
+  width: 446.33px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+/*# sourceMappingURL=team-main.css.map */

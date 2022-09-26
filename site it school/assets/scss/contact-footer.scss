@@ -1,0 +1,114 @@
+footer {
+    margin-top: 363px;
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 160px;
+        gap: 30px;
+        height: 139px;
+        background: #F5F5FA;
+
+        .footer-contacts {
+            display: flex;
+            justify-content: space-between;
+            width: 1600px;
+            height: 79px;
+            
+            .footer-contacts__block-left {
+                margin-top: 30px;
+                margin-left: 60px;
+    
+                div {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #323264;
+                    line-height: 20px;
+        
+                    button {
+                        height: 12px;
+                        background: #B3B3BA;
+                        border-radius: 100%;
+                        border: none;
+                        margin-left: 10px;
+                        margin-right: 6px;
+                    }
+        
+                    .button {
+                        text-decoration: none;
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 15px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: #24A3FF;
+                    }
+                    
+                }
+    
+                div {
+                    margin-top: 21px;
+    
+                    button {
+                        height: 12px;
+                        background: #B3B3BA;
+                        border-radius: 100%;
+                        border: none;
+                        margin-left: 10px;
+                        margin-right: 6px;
+                    }
+
+                    span {
+    
+                        .tel {
+                            margin-left: 10px;
+                            width: 104px;
+                            height: 20px;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #46466E;
+                            text-decoration: none;
+                        }
+
+                        button {
+                            height: 12px;
+                            border-radius: 100%;
+                            border: none;
+                            margin-left: 10px;
+                            margin-right: 6px;
+                            background: #B3B3BA;
+                        }
+    
+                        .email {
+                            margin-left: 10px;
+                            width: 204px;
+                            height: 20px;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #24A3FF;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+    
+            .footer-contacts__block-right {
+                margin-top: 30px;
+                margin-right: 60px;
+
+                span {
+                    width: 276px;
+                    height: 20px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: right;
+                    color: #B3B3BA;
+                }
+            }
+        }
+    }
+}

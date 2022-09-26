@@ -1,0 +1,257 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.64;
+    color: #000;
+}
+
+.container {
+    width: 1300px;
+    height: 0 auto;
+    margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.bg-primary {
+    background-color:rgb(149, 118, 179);
+}
+
+.bg-accent {
+    background-color:rgb(149, 118, 179);
+}
+
+header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-radius: 30px;
+}
+
+header nav {
+    padding: 50px 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+    margin: 42px;
+}
+
+header nav ul li a {
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+    border-radius: 20px;
+}
+
+header nav ul li.active a {
+    color: greenyellow;
+}
+
+.promo {
+    margin-top: 30px;
+    padding: 140px 0;   
+}
+
+.promo h1 {
+    font-weight: 500;
+    font-size: 48px;
+    border: 4mm ridge rgb(149, 118, 179);
+}
+
+.promo .description {
+    color: black;
+    margin: 60px 0;
+    width: 540px;
+}
+
+.promo a {
+    display: inline-block;
+    padding: 20px 40px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.about {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: white;
+}
+
+.about .description {
+    color: white;
+    width: 540px;
+    margin: 50px auto 0;
+}
+
+.projects {
+    padding: 100px 0;
+}
+
+.projects ul {
+    list-style: none;
+    text-align: center;
+}
+
+.projects ul li {
+    display: inline-block;
+    color: white;
+}
+
+.projects ul li:not(:last-child) {
+    margin-right: 35px;
+}
+
+.projects ul li img {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.projects ul li h3{
+    margin-left: 20px;
+    float: right;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.projects ul li h3 .count {
+    text-align: left;
+    display: block;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+#qwerty {
+    height: 40px;
+}
+
+#qwerty2 {
+    height: 20px;
+    color: white;
+}
+
+#qwerty3 {
+    border:4mm ridge rgb(149, 118, 179);
+    color: white;
+}
+
+.works {
+    padding: 100px 0;
+    border: 4mm ridge white;
+}
+
+.works h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: white;
+}
+
+.works .description {
+    width: 540px;
+    text-align: center;
+    color: white;
+    margin: 50px auto;
+}
+
+footer {
+    padding: 50px 0;
+    color: #FFF;
+}
+
+footer h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+ div.contacts {
+    color: #FFF;
+}
+
+h3 {
+    color: #000;
+}
+
+h4 {
+    color: white;
+}
+
+table {
+    border: thick double black;
+    width: 300px;
+}
+
+.box {
+    background:url(../img/1083405.jpg);
+    height: 400vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.thnz {
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+h1 {
+    border: thick double white;
+    width: 210px;
+    color: black;
+}
+
+h4 {
+    color: white;
+}
+ 
+h5 {
+    color: black;
+}
+
+.top{
+    text-align: right;
+}
+
+.description {
+    padding: 40px;
+}
+
+.youtube {
+    float: right;
+}

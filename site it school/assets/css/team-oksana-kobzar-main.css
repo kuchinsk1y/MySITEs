@@ -1,0 +1,103 @@
+main .main .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px 280px;
+  gap: 60px;
+  height: 500px;
+  margin-top: 200px;
+}
+main .main .main-content div h1 {
+  width: 583px;
+  height: 46px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+main .main .main-content div span {
+  width: 218px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+main .main .main-content div a {
+  width: 186px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #24A3FF;
+  text-decoration: none;
+  margin-left: 10px;
+}
+main .main .main-content div hr {
+  width: 900px;
+  height: 4px;
+  background: #E6E6F0;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main .main .main-content div .description {
+  width: 900px;
+  height: 124px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+main .main .main-content div h2 {
+  width: 97px;
+  height: 17px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+}
+main .main .main-content div p {
+  width: 641px;
+  height: 26px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+main .main .main-content div h3 {
+  width: 103px;
+  height: 17px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+}
+main .main .main-content div .experience-p {
+  width: 900px;
+  height: 78px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+/*# sourceMappingURL=team-oksana-kobzar-main.css.map */

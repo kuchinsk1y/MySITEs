@@ -1,0 +1,170 @@
+main .main-icon {
+  width: 1440px;
+  height: 448px;
+  margin-top: 200px;
+}
+main .main-icon .ecommerce-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 14px;
+  gap: 10px;
+  width: 92px;
+  height: 92px;
+  background: #FFFFFF;
+  border-radius: 24px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin-left: 850px;
+}
+main .main-icon h1 {
+  width: 1080px;
+  height: 46px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-left: 370px;
+}
+main .main-icon p {
+  width: 1080px;
+  height: 170px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 370px;
+}
+main .main-icon .main-icon__button button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 18px 30px;
+  gap: 10px;
+  width: 208px;
+  height: 56px;
+  background: #24A3FF;
+  -webkit-box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+          box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  border: none;
+  margin-left: 800px;
+  margin-top: 28px;
+}
+main .main-icon .main-icon__button button a {
+  width: 148px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+main hr {
+  width: 1080px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  margin-top: 144px;
+  margin-left: 360px;
+}
+main .services-area h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-left: 360px;
+  margin-top: 30px;
+}
+main .services-area .services-area__blocks {
+  margin-left: 340px;
+}
+main .services-area .services-area__blocks .services-area__block-left {
+  float: left;
+}
+main .services-area .services-area__blocks .services-area__block-left ul li {
+  width: 496px;
+  height: 104px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+main .services-area .services-area__blocks .services-area__block-right {
+  float: right;
+}
+main .services-area .services-area__blocks .services-area__block-right ul li {
+  width: 496px;
+  height: 104px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+main .strip {
+  margin-left: 20px;
+  margin-right: 20px;
+  top: 0%;
+  bottom: 50%;
+  background: #CACADB;
+  border-radius: 0px 0px 12px 12px;
+  margin-top: 495px;
+  padding-top: 10px;
+  width: 1850px;
+}
+main .second-strip {
+  margin-left: 40px;
+  margin-right: 40px;
+  top: 50%;
+  bottom: 0%;
+  background: #E7E7F2;
+  border-radius: 0px 0px 12px 12px;
+  padding-top: 10px;
+  margin-top: 0px;
+  width: 1810px;
+}
+/*# sourceMappingURL=it-commerce-main.css.map */

@@ -1,0 +1,93 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body header {
+  margin-top: -80px;
+  position: absolute;
+  left: calc(50% - 697px/2 + 0.5px);
+  top: calc(50% - 799px/2 + 0.5px);
+}
+body header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1700px;
+  margin-left: -500px;
+  margin-top: 50px;
+}
+body header .header .header_logo .header_left__block {
+  height: 60px;
+  width: 130px;
+}
+body header .header .header_logo .header_left__block span {
+  position: absolute;
+}
+body header .header .header_logo .header_left__block span .slash {
+  position: absolute;
+  height: 47px;
+  width: 21px;
+  margin-left: 4px;
+}
+body header .header .header_logo .header_left__block span span {
+  width: 143px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #323264;
+  margin-left: 29px;
+}
+body header .header_right__block {
+  width: 550px;
+}
+body header .header_right__block div a {
+  text-decoration: none;
+  color: #B3B3BA;
+  margin-right: 11px;
+}
+body header .header_right__block div .header_languages {
+  font-weight: 700;
+  font-size: 12px;
+}
+body header .header_right__block div button {
+  height: 12px;
+  background: #B3B3BA;
+  border-radius: 100%;
+  border: none;
+  margin-left: -3px;
+  margin-right: 6px;
+}
+body header .header_right__block div .header_tel {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+body header .header_right__block nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+body header .header_right__block nav ul li {
+  margin-left: 15px;
+}
+body header .header_right__block nav ul li a {
+  text-decoration: none;
+  width: 44px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #24A3FF;
+}
+body header .header_right__block nav ul li a:hover {
+  color: #F0145A;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=contact-header.css.map */
